@@ -11,13 +11,14 @@ export default function MovieHomeEntry() {
       <Fade left duartion={1400} delay={3600}>
       <div className="col-span-1 pt-12 w-full pl-12 md:pl-12 lg:pl-24 pr-12 sm:pr-2">
         <h2 className="text-indigo-600 text-5xl sm:text-6xl font-bold">
-          Hoş Geldiniz.
+        Welcome.
         </h2>
         <h2 className="text-indigo-400 text-2xl sm:text-3xl font-semibold mt-3">
-          Milyonlarca film, TV şovu ve keşfedilecek kişi.
+        Millions of movies, TV shows and people to discover.
         </h2>
         <h2 className="text-indigo-400 text-2xl sm:text-3xl font-semibold mt-1">
-          Şimdi keşfedin.
+        Discover now.
+
         </h2>
 
         <a href="#slider" className="text-indigo-500  text-2xl sm:text-3xl font-semibold mt-1 grid place-content-start">
