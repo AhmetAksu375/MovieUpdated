@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+
+.quizBtn{
+    @apply h-24 rounded-lg shadow-2xl px-3 pt-3 duration-200 ease-in cursor-pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.appTitle{
+    @apply h-24 grid place-content-center rounded-lg ease-out duration-500 hover:bg-sky-500 cursor-pointer font-semibold text-2xl font-semibold;
+}
+.navLink{
+    @apply font-bold text-xl text-center border-b-[1px] pb-4 cursor-pointer text-slate-200 duration-300 border-slate-100 hover:scale-125 hover:text-slate-100;
+}
+.category{
+    @apply rounded-xl border-b-0 w-auto; 
+}
+
+.quizBtn2{
+    @apply border-[1.5px] border-slate-500 shadow-xl rounded-lg text-slate-800 w-full h-full duration-300 ease-out text-left py-2 px-3 hover:bg-slate-700;
+}
+.choosedQuizBtn2{
+    @apply border-2 border-yellow-500 bg-yellow-500 shadow-lg rounded-lg text-slate-800 w-full h-full duration-300 ease-out text-left py-2 px-3;
+
 }

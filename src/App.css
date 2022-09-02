@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+html{
+    scroll-behavior: smooth !important;
+    font-family: 'Rubik', sans-serif;
+    background-color: #0F172A !important;
+    
+
+}
+body{
+    font-family: 'Rubik', sans-serif;
+
+
+}
+.todoApp{
+    background-color: #e2e8f0;
+}
+.todoPadding{
+    padding-left: 88px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ajs-message{
+    border-radius: 1rem !important;
+    color:  white;
+    text-align: center;
+    font-weight: 600;
+}
+.ajs-error{
+    font-family: 'Rubik', sans-serif;
+    background-color: #f87171 !important;
+   
+}
+.ajs-success{
+
+    background-color: #4ade80 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ajs-warning{
+
+    background-color: #a3e635 !important;
+}
+.input-grid{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.todoApp{
+    padding-left: 260px;
+    padding-right: 260px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media only screen and (max-width: 1300px) {
+    .todoApp{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+@media only screen and (max-width: 800px) {
+    body{
+        padding-left: 0px;
+        padding-right:0px;
+
+    }
+    .todoApp{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .todo-col{
+        padding-top: 5% !important;
+        margin-top: 5% !important;
+        margin: auto !important;
+        width: 600px !important;
+    }
+
+
+}
+@media only screen and (max-width: 600px) {
+    body{
+        padding-left: 0px;
+        padding-right:0px;
+
+    }
+    .input-grid{
+      
+        text-align: center;
+    }
+  
+    .flex-shrink-0{
+        width: 30% !important;
+        margin-top: 7%;
+        margin-bottom: 5%;
+    }
+   
+    .input{
+        border: 1px solid whitesmoke !important;
+        border-radius: 0.4rem;
+        height: 50px !important;
+        transition: ease-in-out 0.3s;
+    }
+  
+    .todo-col{
+        padding-top: 5% !important;
+        margin-top: 5% !important;
+        padding: 3% !important;
+        width: 100%!important;
+    }
+  
+
 }

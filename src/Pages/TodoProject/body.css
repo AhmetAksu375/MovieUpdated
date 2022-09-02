@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+.row{
+   border-bottom: 0.1px solid #6b7280
+   ;
+}
+.deletedTodo{
+   transition: 0.3s ease-in !important;
+
+   opacity: 0 !important;
+}
+.tableRow{
+   transition: 0.3s ease-in !important;
+}
+.homeBtn{
+   font-family: 'Rubik', sans-serif;
+
+   transition: 0.2s ease-in-out;
+
+}
+
+.homeBtn:hover{
+   
+   transform: scale(1.03,1.03);
+}
+
+.darkTodo{
+   background-color: #1e293b !important;
+   background: #1e293b !important;
+
+}
+

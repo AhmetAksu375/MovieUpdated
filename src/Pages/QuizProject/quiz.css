@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+.quizBtn{
+    text-align: left !important;
+    font-size: 1.3rem;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 3%;
+    font-weight: 600;
+    transition: 0.35s ease-out !important;
+    background-color: #187498  !important;
+    color: #ECECEC !important;
+    padding-left: 3% !important;
+    height: 73px !important;
+
+}
+
+.quizBtn:hover{
+
+    background-color: #143F6B !important;
+
+}
+
+.quizQuestion{
+    font-size: 1.8rem !important;
+    font-weight: 700;
+    background: none !important;
+    color: #143F6B !important; 
+    text-align: left;
+    border-bottom: 2px solid #293462 !important;
+    margin-bottom: 2%;
+    padding-bottom: 40px !important;
+}
+
+.quizChoose:hover{
+    background-color: #475569 !important;
+    color: whitesmoke !important;
+}
+.choosedQuizBtn2{
+    transition: 0.3s;
+    background-color: #FBBF24 !important;
+    border: 0.4px solid #FBBF24 !important;
+}
+
+.choosedQuizBtn2:hover{
+    background-color: #FBBF24 !important;
+    transform: scale(1.01,1.01)
+}
+.choosedQuizBtn{
+    transition: 0.35s ease-out !important;
+
+    background-color: #FBBF24 !important;
+    color: #293462 !important;
+}
+
+
+.choosedQuizBtn:hover{
+    background-color: #eccf2f !important;
+    color: #293462 !important;
+}
+
+.resultBtn{
+
+    width: 160px;
+    height: 54px;
+    background-color: #143F6B;
+    color: #ECECEC;
+    border-radius: 0.4rem;
+    margin: auto !important;
+    margin-top: -2% !important;
+    font-size: 1.1rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+
+
+   
+}
+.finishText{
+    font-size: 3.8rem !important;
+    font-weight: 600;
+    margin-top: -14%;
+    color: #143F6B !important; 
+    font-family: 'Rubik', sans-serif;
+
+    
+}
+.finishText2{
+    font-size: 3rem !important;
+    font-weight: 600;
+    margin: auto !important;
+    color: #14406bbe !important;
+    margin-bottom: 8% !important;
+    margin-top: -5% !important;
+
+    font-family: 'Rubik', sans-serif;
+
+    
+}
+
+.wrongChoose{
+    color: #ECECEC !important;
+    background-color: #EB5353 !important;
+    border-color: #EB5353 !important;
+
+}
+.trueChoose{
+    color: #ECECEC !important;
+    border-color: #36AE7C !important;
+    background-color: #36AE7C !important;
+
+}   
+.emptyChoose{
+    color: #1e293b !important;
+
+    background-color: #facc15 !important;
+
+}
+.quizBtn3:hover{
+    background: #cbd5e1 !important;
+    color: #1e293b !important;
+}
+.wrongChoose:hover{
+    color: #ECECEC !important;
+
+    background-color: #EB5353 !important;
+
+}
+.trueChoose:hover{
+    background-color: #36AE7C !important;
+    color: #ECECEC !important;
+
+}
+
+.next{
+    font-family: 'Rubik', sans-serif;
+    background-color: #143F6B !important;
+    color: #ECECEC;
+    font-size: 1.7rem;
+    transition: 0.2s ease-in-out !important;
+    width:100%  !important;
+    text-align: center;
+    align-items: center;
+    height: 70px !important;
+    padding-top: 1.6%;
+    font-weight: 700;
+
+
+}
+.next:hover{
+    background-color: #0f3051 !important;
+    transform: scale(1.02,1.02);
+}
+/*
+True : #36AE7C
+False : #EB5353
+QuestionBtn : #187498
+Choosed : #F9D923
+Question Text: #143F6B
+
+*/
+
+.activatedBtn{
+    border: 3.4px solid #0f3051 !important;
+}
+
+@media only screen and (max-width: 800px) {
+   .quizBtn2:hover{
+        background: #cbd5e1 !important;
+   }
+
+   .wrongChoose:hover{
+    color: #ECECEC !important;
+
+    background-color: #EB5353 !important;
+
+}
+.trueChoose:hover{
+    background-color: #36AE7C !important;
+    color: #ECECEC !important;
+
+}
+    .quizQuestion{
+    font-size: 1.5rem !important;
+    margin-bottom: 15% !important;
+    text-align: center;
+   }
+   .quizBtn{
+    width: 65%;
+    text-align: center !important;
+    margin-top: 5% !important;
+    height: 60px !important;
+    margin: auto !important;
+    margin-top: 4% !important;
+
+   }
+   .next{
+    width: 65% !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-top: 9%;
+    margin: auto !important;
+   }
+    .finishText {
+        font-size: 3rem !important;
+        text-align: center;
+        padding-left: 3% !important;
+        padding-right: 3% !important;
+        line-height: 50px !important;
+        margin-bottom: 10%;
+    }
+    .resultBtn{
+        height: 70px !important;
+        padding-top: 6% !important;
+    }
+    .finishText2{
+        font-size: 2.3rem !important;
+    }
+    .quizPart{
+        padding-top: 10px !important;
+    }
+}
