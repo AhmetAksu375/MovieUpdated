@@ -14,9 +14,9 @@ export default function MovieHomeEntry() {
         Welcome.
         </h2>
         <h2 className="text-indigo-400 text-2xl sm:text-3xl font-semibold mt-3">
-        Millions of movies, TV shows and people to discover.
+        Millions of movies,TV shows and people to discover.
         </h2>
-        <h2 className="text-indigo-400 text-2xl sm:text-3xl font-semibold mt-1">
+        <h2 className="text-indigo-300 text-2xl sm:text-2xl font-semibold mt-1">
         Discover now.
 
         </h2>
